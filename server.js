@@ -430,7 +430,7 @@ app.post('/removeLike',(req,res) => {
    })
 })
 app.get('/', (req, res) => {
-    res.send('Hello World!');
+    res.send('Hello World! This is Server - Back-end');
 });
 
 app.post('/firebaseConfig', (req, res)=>{
